@@ -988,6 +988,20 @@ footer {
 	.nav.scrolled {
 		padding: 12px 24px;
 	}
+	.hero {
+		justify-content: center;
+		text-align: center;
+	}
+	.hero-content {
+		text-align: center;
+	}
+	.hero-subtitle {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hero-actions {
+		justify-content: center;
+	}
 	.nav-links {
 		position: fixed;
 		top: 0;
