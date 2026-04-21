@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ember & Oak — Coffee House · Conroe, TX</title>
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- ══ NAV ══════════════════════════════════════════════ -->
+		<nav class="nav" id="mainNav">
+			<a href="#" class="nav-logo">Ember <span>&</span> Oak</a>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				+
+				<li><a href="#menu">Menu</a></li>
+				+
+				<li><a href="#experience">Experience</a></li>
+				+
+				<li><a href="#testimonials-section">Community</a></li>
+				+
+				<li><a href="#contact">Contact</a></li>
+				+
+				<li><a href="#contact" class="nav-cta">Visit Us</a></li>
+			</ul>
+			<div class="nav-hamburger" id="hamburger" aria-label="Open menu">
+				<span></span><span></span><span></span>
+			</div>
+		</nav>
+
+		<!-- ══ HERO ══════════════════════════════════════════════ -->
+		<section class="hero" id="home">
+			<video
+				class="hero-video"
+				autoplay
+				muted
+				loop
+				playsinline
+				src="resources/Animate_steam_coming_202604211549.mp4"
+				poster=""
+			></video>
+			<div class="hero-overlay"></div>
+			<div class="hero-content">
+				<span class="hero-eyebrow">Specialty Coffee · Conroe, Texas</span>
+				<h1 class="hero-title">Crafted with<br /><em>Soul</em></h1>
+				<p class="hero-subtitle">
+					Where every pour tells a story. Single-origin beans, artisan roasts, and
+					unhurried moments.
+				</p>
+				<div class="hero-actions">
+					<a href="#menu" class="btn-primary">Explore Menu</a>
+					<a href="#about" class="btn-ghost">Our Story</a>
+				</div>
+			</div>
+			<div class="hero-scroll">
+				<span>Scroll</span>
+				<div class="scroll-line"></div>
+			</div>
+		</section>
+
+		<!-- ══ MARQUEE ═══════════════════════════════════════════ -->
+		<div class="marquee-bar" aria-hidden="true">
+			<div class="marquee-track">
+				<span>Single Origin</span><span class="dot">·</span>
+				<span>Small Batch Roasts</span><span class="dot">·</span>
+				<span>Artisan Espresso</span><span class="dot">·</span>
+				<span>Cold Brew</span><span class="dot">·</span>
+				<span>Seasonal Specials</span><span class="dot">·</span>
+				<span>Conroe, TX</span><span class="dot">·</span> <span>Open Daily</span
+				><span class="dot">·</span> <span>Single Origin</span
+				><span class="dot">·</span> <span>Small Batch Roasts</span
+				><span class="dot">·</span> <span>Artisan Espresso</span
+				><span class="dot">·</span> <span>Cold Brew</span><span class="dot">·</span>
+				<span>Seasonal Specials</span><span class="dot">·</span>
+				<span>Conroe, TX</span><span class="dot">·</span> <span>Open Daily</span
+				><span class="dot">·</span>
+			</div>
+		</div>
+
+		<!-- ══ ABOUT ══════════════════════════════════════════════ -->
+		<section>
+			<div id="about">
+				<div class="about-visual reveal">
+					<div class="about-img-wrap">
+						<img src="images/about_interior.png" alt="Ember & Oak Interior" />
+					</div>
+					<div class="about-img-badge">
+						<strong>EST</strong>
+						<span>2019</span>
+						<span>Conroe</span>
+					</div>
+				</div>
+
+				<div class="about-text">
+					<p class="section-label reveal reveal-delay-1">Our Story</p>
+					<h2 class="section-title reveal reveal-delay-2">
+						More than coffee —<br />a <em>ritual</em>
+					</h2>
+					<p
+						class="reveal reveal-delay-3"
+						style="color: var(--c-text-muted); line-height: 1.8; margin-bottom: 20px"
+					>
+						Nestled in the heart of Conroe, Ember & Oak was born from a simple belief:
+						a truly great cup of coffee can anchor your entire day. We source beans
+						from the finest estates in Ethiopia, Colombia, and Guatemala — then roast
+						them in-house to let every origin speak for itself.
+					</p>
+					<p
+						class="reveal reveal-delay-4"
+						style="color: var(--c-text-muted); line-height: 1.8"
+					>
+						Our space was designed to slow you down. Reclaimed wood, warm amber light,
+						and the gentle percussion of an espresso machine. Come as you are — stay
+						as long as you like.
+					</p>
+
+					<div class="about-pillars">
+						<div class="pillar reveal reveal-delay-1">
+							<div class="pillar-icon">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<circle cx="12" cy="12" r="10" />
+									<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+									<path d="M2 12h20" />
+								</svg>
+							</div>
+							<h4>Direct Trade</h4>
+							<p>
+								We partner directly with farmers, ensuring fair pay and exceptional
+								quality at the source.
+							</p>
+						</div>
+						<div class="pillar reveal reveal-delay-2">
+							<div class="pillar-icon">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3 0-1.1.5-2 1-3 0 1.1 1 2 1.5 3.5.5 1.5 1 3 1 4.5a3.5 3.5 0 0 1-7 0c0-1.1.5-2 1-3 0 1.1-.5 2-1 3z"
+									/>
+								</svg>
+							</div>
+							<h4>In-House Roast</h4>
+							<p>
+								Every bean roasted on-site, weekly, to guarantee peak freshness in every
+								cup.
+							</p>
+						</div>
+						<div class="pillar reveal reveal-delay-3">
+							<div class="pillar-icon">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.2a7 7 0 0 1-9 8.8zm0 0v-2"
+									/>
+								</svg>
+							</div>
+							<h4>Seasonal Menu</h4>
+							<p>
+								Our offerings evolve with the seasons, celebrating the best flavors each
+								time of year brings.
+							</p>
+						</div>
+						<div class="pillar reveal reveal-delay-4">
+							<div class="pillar-icon">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+									<circle cx="9" cy="7" r="4" />
+									<path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+									<path d="M16 3.13a4 4 0 0 1 0 7.75" />
+								</svg>
+							</div>
+							<h4>Community First</h4>
+							<p>
+								A neighborhood gathering spot since 2019 — proud to be part of Conroe's
+								fabric.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ══ MENU ═══════════════════════════════════════════════ -->
+		<section id="menu">
+			<div class="menu-inner">
+				<div class="menu-header">
+					<div class="reveal">
+						<p class="section-label">What We Brew</p>
+						<h2 class="section-title">The <em>Menu</em></h2>
+					</div>
+					<div class="menu-tabs reveal">
+						<button class="tab active" onclick="filterMenu('all', this)">All</button>
+						<button class="tab" onclick="filterMenu('hot', this)">Hot</button>
+						<button class="tab" onclick="filterMenu('cold', this)">Cold</button>
+						<button class="tab" onclick="filterMenu('food', this)">Food</button>
+					</div>
+				</div>
+
+				<div class="menu-grid" id="menuGrid">
+					<div class="menu-card reveal reveal-delay-1" data-cat="hot">
+						<div class="menu-card-img">
+							<img src="images/enber-expresso.jpg" alt="Ember Espresso" />
+							<span class="menu-card-badge">Signature</span>
+						</div>
+						<div class="menu-card-body">
+							<h3>Ember Espresso</h3>
+							<p>
+								Double shot pulled from our house blend — dark chocolate, roasted
+								hazelnut, lingering sweetness.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$4.50</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-card reveal reveal-delay-2" data-cat="hot">
+						<div class="menu-card-img">
+							<img src="images/oak-late.jpg" alt="Honey Oak Latte" />
+							<span class="menu-card-badge">Fan Favorite</span>
+						</div>
+						<div class="menu-card-body">
+							<h3>Honey Oak Latte</h3>
+							<p>
+								Velvety oat milk, wildflower honey, and a whisper of cinnamon with our
+								single-origin espresso.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$6.00</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-card reveal reveal-delay-3" data-cat="cold">
+						<div class="menu-card-img">
+							<img src="images/cold-brew.jpg" alt="Midnight Cold Brew" />
+						</div>
+						<div class="menu-card-body">
+							<h3>Midnight Cold Brew</h3>
+							<p>
+								Steeped 18 hours in filtered water. Bold, smooth, and shamelessly easy
+								to drink.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$5.50</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-card reveal reveal-delay-1" data-cat="food">
+						<div class="menu-card-img">
+							<img src="images/morning-bun.jpg" alt="Cardamom Morning Bun" />
+							<span class="menu-card-badge">Fresh Daily</span>
+						</div>
+						<div class="menu-card-body">
+							<h3>Cardamom Morning Bun</h3>
+							<p>
+								Laminated dough, cardamom sugar glaze, baked fresh each morning by our
+								in-house pastry team.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$4.75</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-card reveal reveal-delay-2" data-cat="hot">
+						<div class="menu-card-img">
+							<img src="images/Ethiopian-Pour.jpg" alt="Ethiopian Pour Over" />
+							<span class="menu-card-badge">Pour Over</span>
+						</div>
+						<div class="menu-card-body">
+							<h3>Ethiopian Pour Over</h3>
+							<p>
+								Yirgacheffe beans hand-ground to order. Jasmine florals, stone fruit,
+								and bright clarity in every cup.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$7.50</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-card reveal reveal-delay-3" data-cat="cold">
+						<div class="menu-card-img">
+							<img src="images/Matcha.jpg" alt="Ceremonial Matcha" />
+						</div>
+						<div class="menu-card-body">
+							<h3>Ceremonial Matcha</h3>
+							<p>
+								Ceremonial-grade Japanese matcha, lightly sweetened, served iced over
+								oat milk.
+							</p>
+							<div class="menu-card-footer">
+								<span class="menu-price">$6.50</span>
+								<div class="menu-card-arrow">→</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ══ QUOTE ══════════════════════════════════════════════ -->
+		<div class="quote-section reveal">
+			<div class="quote-mark">"</div>
+			<p class="quote-text">
+				Coffee is a language in itself — and every cup we serve is a sentence worth
+				savoring.
+			</p>
+			<p class="quote-attr">— The Ember & Oak Team</p>
+		</div>
+
+		<!-- ══ EXPERIENCE ════════════════════════════════════════ -->
+		<section>
+			<div id="experience">
+				<div class="experience-header reveal">
+					<p class="section-label">The Space</p>
+					<h2 class="section-title">Designed to <em>linger</em></h2>
+					<p
+						style="color: var(--c-text-muted); margin-top: 16px; font-size: 0.9375rem"
+					>
+						Every corner of Ember & Oak was considered. Step in and stay a while.
+					</p>
+				</div>
+				<div class="experience-grid">
+					<div class="exp-cell reveal">
+						<div class="exp-number">2,400</div>
+						<h4>Square Feet of Warmth</h4>
+						<p>
+							Spacious yet intimate, with cozy nooks, communal tables, and a sun-lit
+							garden terrace.
+						</p>
+					</div>
+					<div class="exp-cell reveal reveal-delay-1">
+						<div class="exp-number">12+</div>
+						<h4>Origins on Rotation</h4>
+						<p>
+							From Ethiopian highlands to Guatemalan valleys — new origins introduced
+							every season.
+						</p>
+					</div>
+					<div class="exp-cell reveal reveal-delay-2">
+						<div class="exp-number">Free</div>
+						<h4>High-Speed Wi-Fi</h4>
+						<p>
+							Work, study, or create from our café with reliable connectivity and
+							plenty of power outlets.
+						</p>
+					</div>
+					<div class="exp-cell reveal reveal-delay-3">
+						<div class="exp-number">7AM</div>
+						<h4>Open Every Day</h4>
+						<p>
+							We're here early to start your morning right, open late for those evening
+							wind-down moments.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ══ TESTIMONIALS ═══════════════════════════════════════ -->
+		<section id="testimonials-section">
+			<div id="testimonials">
+				<div
+					class="experience-header reveal"
+					style="text-align: center; margin-bottom: 64px"
+				>
+					<p class="section-label">Community Voices</p>
+					<h2 class="section-title">What they're <em>saying</em></h2>
+				</div>
+
+				<div class="testimonials-grid">
+					<!-- Testimonial 1 -->
+					<div class="testimonial-card reveal">
+						<div class="testimonial-stars">
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+						</div>
+						<p class="testimonial-text">
+							"The Honey Oak Latte is easily the best coffee I've had in Texas. The
+							attention to detail is remarkable."
+						</p>
+						<div class="testimonial-author">
+							<div class="testimonial-author-img">SR</div>
+							<div class="testimonial-author-info">
+								<h4>Sarah Richardson</h4>
+								<p>Conroe Local</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 2 -->
+					<div class="testimonial-card reveal reveal-delay-1">
+						<div class="testimonial-stars">
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+						</div>
+						<p class="testimonial-text">
+							"Finally a place that understands light roasts. Their Ethiopian pour over
+							is bright, floral, and perfect."
+						</p>
+						<div class="testimonial-author">
+							<div class="testimonial-author-img">JM</div>
+							<div class="testimonial-author-info">
+								<h4>James Miller</h4>
+								<p>Coffee Enthusiast</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 3 -->
+					<div class="testimonial-card reveal reveal-delay-2">
+						<div class="testimonial-stars">
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+							<svg viewBox="0 0 20 20">
+								<path
+									d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+								/>
+							</svg>
+						</div>
+						<p class="testimonial-text">
+							"Ember & Oak is more than a cafe; it's a sanctuary. The reclaimed wood
+							and soft lighting make it so cozy."
+						</p>
+						<div class="testimonial-author">
+							<div class="testimonial-author-img">EL</div>
+							<div class="testimonial-author-info">
+								<h4>Elena Lopez</h4>
+								<p>Digital Nomad</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ══ CONTACT ════════════════════════════════════════════ -->
+		<section
+			style="background: var(--c-surface); border-top: 1px solid var(--c-border)"
+		>
+			<div id="contact">
+				<div class="contact-info">
+					<p class="section-label reveal">Find Us</p>
+					<h2 class="section-title reveal reveal-delay-1">
+						Come say <em>hello</em>
+					</h2>
+
+					<div class="info-block reveal reveal-delay-2">
+						<h4>Location</h4>
+						<p>123 Main Street<br />Conroe, Texas 77301</p>
+					</div>
+
+					<div class="info-block reveal reveal-delay-3">
+						<h4>Hours</h4>
+						<table class="hours-table">
+							<tr>
+								<td>Monday – Friday</td>
+								<td>7:00 AM – 8:00 PM</td>
+							</tr>
+							<tr class="today">
+								<td class="today-dot">Saturday</td>
+								<td>8:00 AM – 9:00 PM</td>
+							</tr>
+							<tr>
+								<td>Sunday</td>
+								<td>8:00 AM – 7:00 PM</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="info-block reveal">
+						<h4>Contact</h4>
+						<p>
+							<a href="tel:+19365550100">(936) 555-0100</a><br />
+							<a href="mailto:hello@emberandoak.com">hello@emberandoak.com</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="contact-form-wrap reveal reveal-delay-2">
+					<h3>Send us a message</h3>
+					<p>
+						Catering inquiries, event bookings, or just want to say hi — we'd love to
+						hear from you.
+					</p>
+					<div class="form-group">
+						<label>Your Name</label>
+						<input type="text" placeholder="Jane Smith" />
+					</div>
+					<div class="form-group">
+						<label>Email Address</label>
+						<input type="email" placeholder="jane@example.com" />
+					</div>
+					<div class="form-group">
+						<label>Subject</label>
+						<select>
+							<option value="">Select a topic…</option>
+							<option>General Inquiry</option>
+							<option>Catering / Events</option>
+							<option>Wholesale Coffee</option>
+							<option>Feedback</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Message</label>
+						<textarea placeholder="Tell us what's on your mind…"></textarea>
+					</div>
+					<button class="btn-primary" style="width: 100%; justify-content: center">
+						Send Message
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- ══ FOOTER ════════════════════════════════════════════ -->
+		<footer>
+			<div class="footer-inner">
+				<div class="footer-top">
+					<div class="footer-brand">
+						<span class="nav-logo">Ember <span>&</span> Oak</span>
+						<p>
+							A specialty coffee house rooted in Conroe, Texas. Slow coffee, warm
+							spaces, and real community — since 2019.
+						</p>
+					</div>
+					<div class="footer-col">
+						<h5>Explore</h5>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#menu">Menu</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#testimonials-section">Community</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h5>Visit</h5>
+						<ul>
+							<li><a href="#contact">Location & Hours</a></li>
+							<li><a href="#contact">Events</a></li>
+							<li><a href="#contact">Catering</a></li>
+							<li><a href="#contact">Gift Cards</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h5>Connect</h5>
+						<ul>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">TikTok</a></li>
+							<li><a href="mailto:hello@emberandoak.com">Email Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p>
+						© 2025 Ember & Oak Coffee House · Conroe, TX. Created by Igor Ratajczyk.
+					</p>
+					<div class="social-links">
+						<a href="#" aria-label="Instagram">IG</a>
+						<a href="#" aria-label="Facebook">FB</a>
+						<a href="#" aria-label="TikTok">TK</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
